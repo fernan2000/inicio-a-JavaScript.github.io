@@ -32,3 +32,5 @@ console.log(typeof "esto es un string")
 //adicionales//
 console.log(typeof 3.14159265);       // number (decimal)
 console.log(typeof 'clase 1');   // string
+
+//primer clase 
