@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #e50914;
+}
+
+.contenedor-peliculas {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.pelicula {
+    cursor: pointer;
+    text-align: center;
+}
+
+.pelicula img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pelicula p {
+    margin-top: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-contenido {
+    background-color: #1f1f1f;
+    margin: 5% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    color: white;
+}
+
+.cerrar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cerrar:hover {
+    color: #e50914;
+}
+
+#tituloPeliculaModal {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+.area-comentarios {
+    margin: 20px 0;
+    min-height: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.comentario {
+    background-color: #2a2a2a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.comentario-texto {
+    margin-bottom: 5px;
+}
+
+.comentario-fecha {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.botones-comentario {
+    display: flex;
+    gap: 10px;
+}
+
+.boton-editar, .boton-eliminar {
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.nuevo-comentario {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#inputComentario {
+    flex: 1;
+    padding: 8px;
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 3px;
+}
+
+#btnAgregarComentario {
+    padding: 8px 15px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .contenedor-peliculas {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor-peliculas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix opi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎬 comenta tus pelis fav</h1>
+    
+    <div class="contenedor-peliculas" id="contenedorPeliculas">
+        <!-- Las 10 imagenes en javascripts -->
+    </div>
+
+    <!-- modal para comentarios  -->
+    <div id="modalComentarios" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" id="cerrarModal">&times;</span>
+            <h2 id="tituloPeliculaModal">Titulo de la película</h2>
+            
+            <div class="area-comentarios" id="areaComentarios">
+                <!-- aqui apareceran los comentarios -->
+            </div>
+            
+            <div class="nuevo-comentario">
+                <input type="text" id="inputComentario" placeholder="Escribe un comentario...">
+                <button id="btnAgregarComentario">Agregar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
