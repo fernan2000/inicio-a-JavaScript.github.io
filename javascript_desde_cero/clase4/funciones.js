@@ -2,6 +2,7 @@
 
 //sintaxis general
 
+
 function nombre_de_la_funcion(parametro1, parametro2) {
         return "valor a regresra"
 }

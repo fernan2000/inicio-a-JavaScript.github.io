@@ -8,6 +8,7 @@ let funcion_como_variable = function(a, b) {
     //console.log("b")
     return a + b;
 }
+
 //funciones flechas
 let funcion_flecha = (a, b) => {
     return a + b;

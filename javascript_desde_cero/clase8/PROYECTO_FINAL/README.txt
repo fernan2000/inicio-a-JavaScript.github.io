@@ -14,6 +14,7 @@ Que hace:
 - Los comentarios guardan fecha y hora
 - Se puede editar y eliminar comentarios
 
+
 Archivos:
 - index.html (la pagina)
 - style.css (los colores y tamaños)

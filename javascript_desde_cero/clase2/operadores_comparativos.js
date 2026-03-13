@@ -2,6 +2,7 @@
 console.log('5 == 5');
 console.log('0 == \"0\"', 0 == "");//da true,aunque no sea el mismo tipo de dato//
 //igualdad estricta//
+
 console.log('5 === 5', 5 === 5);    
 console.log('0 === \"0\"', 0 === "0");//da false,porque no son del mismo tipo de dato//
 //desigualdad debil//

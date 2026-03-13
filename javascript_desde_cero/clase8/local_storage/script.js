@@ -6,6 +6,7 @@ save_button.addEventListener('click', () => {
     const comment = comment_input.value;
 
     // esto borra el cam´po de txto
+    
     comment_input.value = ""
 
     comentarios.push(comment)

@@ -5,6 +5,7 @@ parrafo.innerText = "Hola mundo desde JS";
 parrafo.style.color = "red";
 
 //agregar un nuevo elemento al DOM
+
 const nuevoComentario = document.createElement("p");
 nuevoComentario.textContent = "Este es un nuevo comentario";
 document.body.appendChild(nuevoComentario);

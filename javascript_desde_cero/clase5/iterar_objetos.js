@@ -3,6 +3,7 @@ let estudiante = {
     edad: 20,
     curso: "programacion",
 }
+
 for(key in estudiante){ 
     console.log(`La llave es: ${key}, y el valor es: ${estudiante[key]}`)
 }

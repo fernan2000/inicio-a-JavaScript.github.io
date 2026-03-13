@@ -1,4 +1,5 @@
 //objeto anidado
+
 const empresa = {
     nombre: "Techcorp",
     empleados: { jefe: "itzel"}

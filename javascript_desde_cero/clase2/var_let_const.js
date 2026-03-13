@@ -10,6 +10,7 @@ let edad = 19;
 const ciudad_natal = "SLP";
 
 
+
 console.log(nombre);
 console.log(apellido);
 console.log(edad);

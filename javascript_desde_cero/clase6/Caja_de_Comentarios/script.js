@@ -4,6 +4,8 @@ const agregarBtn = document.querySelector("#agregar_btn");
 const listaComentarios = document.querySelector("#lista_comentarios");
 
 // fecha actual
+
+
 function obtenerFecha() {
     const ahora = new Date();
     return ahora.toLocaleString();

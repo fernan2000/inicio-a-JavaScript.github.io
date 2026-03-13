@@ -13,6 +13,7 @@ const contadorFrutas = {
     "🍐": 0
 };
 
+
 // Usa un ciclo for para recorrer el arreglo y contar las frutas
 console.log("usando for------------------");
 

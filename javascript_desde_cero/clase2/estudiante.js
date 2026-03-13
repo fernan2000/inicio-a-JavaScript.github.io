@@ -3,6 +3,7 @@ let nota = 75;
 
 // verificamos que la nota sea un valor válido
 if (nota > 0) {
+  
 
   // Si es 90 o mas
   if (nota >= 90) {

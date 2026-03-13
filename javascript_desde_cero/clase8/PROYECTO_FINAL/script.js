@@ -11,6 +11,7 @@ const peliculas = [
     { id: 8, titulo: "marnie", imagen: "https://i.pinimg.com/736x/b7/47/f4/b747f401d56657e232f6fe2d408a0b5c.jpg" },
     { id: 9, titulo: "flow", imagen: "https://i.pinimg.com/1200x/2f/07/28/2f07281e0e1c22ad656a7b2ad94c7c86.jpg" },
     { id: 10, titulo: "grease", imagen: "https://i.pinimg.com/736x/cb/2d/76/cb2d76ea0b737f6438533363a62cf37f.jpg" }
+    
 ];
 
 // objeto para almacenar 

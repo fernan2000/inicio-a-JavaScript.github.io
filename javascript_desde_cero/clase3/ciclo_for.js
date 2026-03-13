@@ -8,6 +8,7 @@ for(let i = 0; i < 5; i++){
 
 //podemos modificar el contador para que vaya de dos en dos
 
+
 for(let i = 0; i< 20; i += 2){
     console.log(i);
 }

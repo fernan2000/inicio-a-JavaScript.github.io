@@ -5,6 +5,7 @@ function escuela() {
     console.log(persona)
     console.log(estudiante)
 }
+
 escuela()
 console.log(estudiante)
 

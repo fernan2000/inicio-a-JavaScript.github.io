@@ -5,6 +5,8 @@ let condicion_1;
 let condicion_2;
 let condicion_3;    
 
+
+
 //if solo//
 if(condicion) {
     //sig instruccion//

@@ -2,6 +2,7 @@
 
 //sintaxis
 
+
 let obj = {
     llave1: "valor1",
     llave2: "valor2",

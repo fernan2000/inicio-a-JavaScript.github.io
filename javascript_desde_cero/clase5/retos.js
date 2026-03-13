@@ -7,6 +7,8 @@ const avengers = [
     { name: 'hawkeye', age: 40, movies: ['hawkeye', 'avengers'] }
 ];
 
+
+
 console.log(avengers[2].movies[1])
 //accediendo a la pelicula de thor
 const rocky_movies = {

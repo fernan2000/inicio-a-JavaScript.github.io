@@ -8,6 +8,7 @@ const length_span = document.querySelector("#length_span")  // CAMBIADO: length_
 const strength_span = document.querySelector("#strength_span")
 
 // Actualizar el valor de la longitud cuando se mueve el slider
+
 password_range.addEventListener("input", () => {
     length_span.textContent = password_range.value  // CAMBIADO: length_value -> length_span
 })

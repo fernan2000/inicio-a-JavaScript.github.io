@@ -8,6 +8,7 @@ for (let i = 0; i < animales.length; i++) {
 //es equivalente a
 console.log("usando if's------------------");
 
+
 let i = 0
 if(i < animales.length){ //animales.length = 4
     console.log(animales[i]);

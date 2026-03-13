@@ -4,6 +4,7 @@ let nombres = ["Vasty", "xime", "itzel", "rocio", "maria"];
 //nombre en posicion 0
 console.log(nombres[0]);
 
+
 //nombre en posicion 3
 console.log(nombres[3]);
 

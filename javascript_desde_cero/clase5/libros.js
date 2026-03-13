@@ -2,6 +2,7 @@
 
 
 const libro = {
+    
     // Propiedades básicas del libro
     titulo: "El castillo bagabundo",
     autor: "howl",
