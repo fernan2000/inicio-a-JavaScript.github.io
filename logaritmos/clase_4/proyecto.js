@@ -2,6 +2,8 @@
 // consecutivos cuyos nombres comienzan con la misma letra para ofrecerles
 // un descuento especial.
 
+
+
 const clientes = [
     "Sophie Hatter",
     "Howl Jenkins",
@@ -12,12 +14,16 @@ const clientes = [
     "Príncipe Justin"
 ];
 
+
+
 // 1. inicializar los dos punteros
 let izquierda = 0;
 let derecha = 1;  // No es length-1, es el siguiente elemento
 let letra1 = "";
 let letra2 = "";
 let pareja = [];
+
+
 
 // 2. Mientras izquierda sea menor que derecha Y derecha sea menor que la longitud:
 while (izquierda < derecha && derecha < clientes.length) {
